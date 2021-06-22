@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="container" id="header">
       <h1 class="top-area" id="title">kadee Survey Form</h1>
       <p class="top-area" id="description">
         Thank you for taking the time to help us improve the platform
@@ -47,7 +47,7 @@
           />
         </div>
 
-        <div class="form-group">
+        <div class="form-group description-best">
           <p>Which option best describes your current role?</p>
           <select name="dropdown" id="dropdown">
             <option value="student">Student</option>
@@ -56,7 +56,8 @@
         </div>
         <div class="form-group radio-check">
           <p>Would recommend kadee to a friend?</p>
-          <label for="definitely">Definitely</label>
+          
+            <label for="definitely">Definitely</label>
           <input
             type="radio"
             name="recommendation"
@@ -64,6 +65,8 @@
             id="definitely"
             checked
           />
+
+          
           <label for="maybe">Maybe</label>
           <input type="radio" name="recommendation" value="maybe" id="maybe" />
           <label for="notsure">Not sure</label>
