@@ -2,7 +2,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./assets/Sreenshot.png)
+![screenshot](./assets/Screenshot.png)
 
 Additional description about the project and its features.
 
